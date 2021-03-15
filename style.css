@@ -1,0 +1,68 @@
+:root {
+    --orchid:#d9b3ff;
+    --cool:#4dffff;
+    --gray:#595959;
+    --fun:#ff66cc;
+    --dark:#000000;
+    --mood:#9900cc;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    background-color: var(--orchid);
+    color: var(--gray);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+thead {
+    background-color: var(--fun);
+    color: var(--cool);
+    font-weight: 700;
+}
+.custom-jumbotron,
+.custom-card .card-header,
+.custom-card .card-footer,
+.custom-modal .modal-header,
+.custom-modal .modal-footer {
+    background-color: var(--gray);
+    color: var(--orchid);
+}
+
+.custom-card .card-body,
+.custom-modal .modal-body {
+  background-color: var(--orchid);
+  color: var(--gray);
+}
+
+.custom-btn {
+    background-color: var(--orchid);
+    color: var(--gray);
+  }
+
+  .custom-btn:hover {
+    background-color: var(--cool);
+    color: var(--gray);
+  }
+
+  .custom-table tbody {
+    background-color: var(--gray);
+    color: var(--orchid);
+  }
+
+  .delete-project-btn {
+    cursor: pointer;
+  }
+  
+
+
+
+
